@@ -1,0 +1,20 @@
+{
+    "name": "inovature/pomba",
+    "authors": [
+        {
+            "name": "Pomba",
+            "email": "info@inovature.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"^6.1",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\pomba\\php-classes\\src"
+        }
+    }
+}
